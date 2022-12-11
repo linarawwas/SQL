@@ -28,13 +28,16 @@ WHERE name = 'Layal';"
 SET Graduation = '08/09/2019'
 WHERE name = 'Layal';"
 "DELETE from students WHERE name = 'Layal';"
-
-
-
-
-
-
-
-
-
-
+"SELECT employees.Name, companies.name, companies.date
+FROM employees
+JOIN companies
+ON employees.Company=companies.Name;"
+"SELECT employees.Name as employee, 
+companies.date as date 
+FROM employees
+JOIN companies
+ON employees.Company=companies.Name
+WHERE date < 2000;"
+"SELECT role, company 
+FROM employees 
+where role='Graphic Designer';"
