@@ -41,3 +41,13 @@ WHERE date < 2000;"
 "SELECT role, company 
 FROM employees 
 where role='Graphic Designer';"
+"SELECT  points ,name  FROM STUDENTS
+order by Points DESC
+limit 1;"
+"SELECT AVG(POINTS) FROM students;"
+"SELECT count(name) FROM students
+WHERE Points=500;"
+"SELECT name FROM students
+WHERE NAME LIKE '%s%';"
+"SELECT name FROM students
+order by Points DESC;"
